@@ -1,0 +1,87 @@
+#skilled {
+  padding: 150px 0;
+}
+.skilled {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+}
+.skilled-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  .about-skilled {
+    position: relative;
+    width: 115px;
+    height: 39px;
+    background: #f0e71433;
+    border-radius: 1000px;
+    .about {
+      position: absolute;
+      top: 10px;
+      left: 25px;
+      h1 {
+        font-weight: 400;
+        font-size: 16px;
+      }
+    }
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    color: #24272e;
+  }
+  #Customer {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #555c68;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 160px;
+    height: 46px;
+    border-radius: 122px;
+    border: none;
+    background: #24272e;
+    color: #f0e714;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    transition: 0.9s;
+    border: 1px solid white;
+    .read-icon {
+      font-size: 15px;
+    }
+  }
+  button:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(242, 239, 68, 1) 0%,
+      rgba(165, 176, 83, 1) 44%,
+      rgba(70, 77, 47, 1) 100%
+    );
+    border: 1px solid rgb(255, 255, 255);
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+  }
+}
+.skilled-left {
+  position: relative;
+  .skilled-up {
+    position: absolute;
+    bottom: -63px;
+    left: -45px; 
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    opacity: 0.8;
+  }
+}

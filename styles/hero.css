@@ -56,10 +56,11 @@
   align-items: center;
   justify-content: space-between;
   padding-right: 190px;
-  button{
+  button {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
     background: #f0e714;
     width: 197;
     height: 60;
@@ -73,6 +74,9 @@
     padding-left: 36px;
     transition: 0.6s ;
     border: 1px solid transparent;
+    .hero-btns{
+      font-size: 15px;
+    }
   }
   button:hover {
     background: transparent;
@@ -90,10 +94,10 @@
 .hero-right {
   position: relative;
   .circle-img {
-  position: absolute;
-  top: -35px;
-  left: 10px;
-}
+    position: absolute;
+    top: -35px;
+    left: 10px;
+  }
 }
 .hero-market {
   position: absolute;
