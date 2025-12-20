@@ -1,0 +1,78 @@
+#klient{
+  padding: 50px 0;
+}
+.texts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  button {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -1.1%;
+    text-transform: uppercase;
+    background: #f0e71433;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.9s;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 44px;
+    margin: 20px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -1.1%;
+    color: #555c68;
+  }
+}
+
+.klients {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.owner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0 0 0;
+  width: 500px;
+  height: 400px;
+  background: white;
+  border-radius: 5px;
+  transition: 0.9s;
+  border: none;
+  h3 {
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    margin: 10px;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 12px;
+    color: #8791a0;
+  }
+  .stars {
+    margin: 10px;
+    a {
+      color: #f37825;
+    }
+  }
+  p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -1.1%;
+    color: #555c68;
+  }
+}
+.owner:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.141);
+}
