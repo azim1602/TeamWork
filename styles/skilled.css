@@ -12,21 +12,17 @@
   justify-content: center;
   flex-direction: column;
   gap: 25px;
-  .about-skilled {
-    position: relative;
+  .head-skill {
     width: 115px;
     height: 39px;
-    background: #f0e71433;
+    gap: 10px;
     border-radius: 1000px;
-    .about {
-      position: absolute;
-      top: -7px;
-      left: 25px;
-      h1 {
-        font-weight: 400;
-        font-size: 16px;
-      }
-    }
+    padding: 10px 16px;
+
+    background: #f0e71433;
+    color: black;
+    transition: 0.9s;
+    border: 1px solid white;
   }
   h2 {
     font-weight: 600;
@@ -78,7 +74,7 @@
   .skilled-up {
     position: absolute;
     bottom: -63px;
-    left: -45px; 
+    left: -45px;
     width: 200px;
     height: 200px;
     z-index: -1;

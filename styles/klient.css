@@ -1,5 +1,5 @@
-#klient{
-  padding: 50px 0;
+#klient {
+  padding: 20px 0 100px 0;
 }
 .texts {
   display: flex;
@@ -16,6 +16,18 @@
     padding: 10px 20px;
     border-radius: 20px;
     transition: 0.9s;
+    border: 1px solid white;
+  }
+  button:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(242, 239, 68, 1) 0%,
+      rgba(165, 176, 83, 1) 44%,
+      rgba(70, 77, 47, 1) 100%
+    );
+    border: 1px solid rgb(255, 255, 255);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
   }
   h1 {
     font-weight: 600;

@@ -42,7 +42,19 @@
     padding-left: 16px;
     background-color: #f0e71433;
     transform: scale(1.1);
-    border: none;
+    transition: 0.9s;
+    border: 1px solid white;
+  }
+  button:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(242, 239, 68, 1) 0%,
+      rgba(165, 176, 83, 1) 44%,
+      rgba(70, 77, 47, 1) 100%
+    );
+    border: 1px solid rgb(255, 255, 255);
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
   }
 }
 h1 {
